@@ -1,0 +1,21 @@
+{
+    "name": "jelle-s/cssoptimizer",
+    "description": "Optimizes & minifies css files or strings.",
+    "type": "library",
+    "require": {
+        "sabberworm/php-css-parser": "^8.1",
+        "nicmart/Tree": "^0.2.7",
+        "jelle-s/arraykeycombiner": "^1.0"
+    },
+    "license": "GPL-3.0+",
+    "authors": [
+        {
+            "name": "Jelle Sebreghts",
+            "email": "sebreghts.jelle@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+      "psr-4": {"Jelle_S\\CssOptimizer\\": "src/"}
+    }
+}
