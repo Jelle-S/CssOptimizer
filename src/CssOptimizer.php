@@ -60,7 +60,7 @@ class CssOptimizer {
    */
   public function __construct($css, $threshold = 5, $combinationLimit = NULL) {
     $this->threshold = $threshold;
-    if (is_file($css)) {
+    if ( (!stristr(PHP_OS, 'WIN') || strlen($css)<260) && is_file($css)) {
       $css = file_get_contents($css);
     }
     // Try to keep some sort of sane default based on the amount of data we get.
