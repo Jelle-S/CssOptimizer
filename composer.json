@@ -16,6 +16,8 @@
     ],
     "minimum-stability": "stable",
     "autoload": {
-        "psr-4": {"Jelle_S\\CssOptimizer\\": "src/"}
+        "psr-4": {
+            "Jelle_S\\CssOptimizer\\": "src/"
+        }
     }
 }
