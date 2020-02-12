@@ -4,7 +4,7 @@
     "type": "library",
     "require": {
         "sabberworm/php-css-parser": "^8.1",
-        "nicmart/Tree": "^0.2.7",
+        "nicmart/tree": "^0.2.7",
         "jelle-s/arraykeycombiner": "^1.0"
     },
     "license": "GPL-3.0+",
